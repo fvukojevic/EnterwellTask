@@ -27,12 +27,9 @@ function enterwell_form_submit()
     $data_array = $mapper->mapUsersData($_POST);
 
     $writer = new Writer;
-    if($writer->storePrizeEntry($data_array)){
-        wp_redirect(home_url() . '?entry=success');
-        return;
-    }
+    $response = $writer->storePrizeEntry($data_array);
 
-    wp_redirect(home_url() . '?entry=fail');
+    wp_redirect(home_url() . '?entry=' . $response);
 }
 
 
