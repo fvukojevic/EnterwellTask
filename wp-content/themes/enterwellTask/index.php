@@ -2,21 +2,21 @@
 print_r($_GET["pozdravee"]);
 ?>
 
-<div class="hidden-success">
+<div id="success-alert" class="hidden-success">
     <img class="success-icon" src="wp-content/themes/enterwellTask/assets/success.svg">
     <p class="success-text">Uspješna prijava</p>
     <p class="success-subtext">Dok čekaš rezultate ovog zadatka opusti se uz neko dobro
     pivo! Kod nas u Enterwellu nema razloga za brigu</p>
     <button type="submit" class="ok-button" style="border: 0; background: transparent">
-        <img src="wp-content/themes/enterwellTask/assets/ok-button.svg" style="cursor:pointer;">
+        <img id="success-img" src="wp-content/themes/enterwellTask/assets/ok-button.svg" style="cursor:pointer;">
     </button>
 </div>
-<div class="hidden-error">
+<div id="error-alert" class="hidden-error">
     <img class="error-icon" src="wp-content/themes/enterwellTask/assets/alert.svg">
     <p class="error-text">Neuspješna prijava</p>
     <p id="error-msg" class="error-subtext"></p>
     <button type="submit" class="error-button" style="border: 0; background: transparent">
-        <img src="wp-content/themes/enterwellTask/assets/error-button.svg" style="cursor:pointer;">
+        <img id="error-img" src="wp-content/themes/enterwellTask/assets/error-button.svg" style="cursor:pointer;">
     </button>
 </div>
 <div class="form">
