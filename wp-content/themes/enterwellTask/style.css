@@ -437,6 +437,116 @@ select {
     font-size:11px;
 }
 
-select#gender option[value="male"]   { background-image:url("http://localhost/wordpress/wp-content/themes/enterwellTask/assets/croatia-flag-icon.svg");   }
-select#gender option[value="female"] { background-image:url("http://localhost/wordpress/wp-content/themes/enterwellTask/assets/croatia-flag-icon.svg"); }
-select#gender option[value="others"] { background-image:url("http://localhost/wordpress/wp-content/themes/enterwellTask/assets/croatia-flag-icon.svg"); }
+.success-icon {
+    position:relative;
+    left:12em;
+    width: 128px;
+    height: 128px;
+    object-fit: contain;
+}
+
+.success-text {
+    position:relative;
+    text-align:center;
+    left:1em;
+    top:-1em;
+    width: 390px;
+    height: 61px;
+    font-family: Catamaran;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.success-subtext {
+    text-align:center;
+    position:relative;
+    top:-4em;
+    width: 500px;
+    height: 43px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #bababa;
+}
+
+.ok-button {
+    position:relative;
+    top:-5em;
+    left:13.5em;
+    width: 180px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.hidden-success {
+    z-index:-1;
+    position:absolute;
+    left:30em;
+    top:10em;
+}
+
+.error-icon {
+    position:relative;
+    left:12em;
+    width: 128px;
+    height: 128px;
+    object-fit: contain;
+}
+
+.error-text {
+    position:relative;
+    text-align:center;
+    left:1em;
+    top:-1em;
+    width: 430px;
+    height: 61px;
+    font-family: Catamaran;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.error-subtext {
+    text-align:center;
+    position:relative;
+    top:-4em;
+    width: 500px;
+    height: 43px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #bababa;
+}
+
+.error-button {
+    position:relative;
+    top:-7em;
+    left:13.5em;
+    width: 180px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.hidden-error {
+    position:absolute;
+    z-index:-1;
+    left:30em;
+    top:10em;
+}

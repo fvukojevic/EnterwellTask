@@ -16,6 +16,7 @@ function enterwellTask_resources() {
 function enterwellTask_script() {
     wp_enqueue_script( 'drag-and-drop', get_template_directory_uri() . '/js/drag-and-drop.js');
     wp_enqueue_script( 'field-validation', get_template_directory_uri() . '/js/field-validation.js');
+    wp_enqueue_script( 'alert', get_template_directory_uri() . '/js/alert.js',  array('jquery'));
 }
 
 /**
@@ -29,7 +30,7 @@ function enterwell_form_submit()
     $writer = new Writer;
     $response = $writer->storePrizeEntry($data_array);
 
-    wp_redirect(home_url() . '?entry=' . $response);
+    wp_redirect(home_url() . '?msg=' . $response);
 }
 
 

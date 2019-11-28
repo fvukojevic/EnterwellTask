@@ -19,19 +19,19 @@ class Writer implements WriterInterface
         global $wpdb;
 
         if(!$this->checkIsEmailAlreadyTaken($data['email'])){
-            return 'Email is already taken';
+            return 'Email je već zauzet';
         }
 
         if(!$this->checkIfBillNumberAlreadyExists($data['email'])){
-            return 'Bill number is already entered';
+            return 'Broj racuna je vec unesen';
         }
 
         $rowResult = $wpdb->insert(self::TABLE_NAME, $data, $format = NULL);
         if($rowResult === 1) {
-            return 'Your application is filled correctly';
+            return 'success';
         }
 
-        return 'Whoops something went wrong';
+        return 'Nešto je pošlo po zlu. Pokušajte ponovno';
     }
 
     /**
