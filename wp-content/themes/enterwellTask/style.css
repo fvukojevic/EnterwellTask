@@ -1,0 +1,442 @@
+/*
+Theme Name: enterwellTask
+Author: Ferdo Vukojević
+Author URI: https://github.com/fvukojevic
+Version: 1.0
+*/
+
+body {
+    background-color: #2a2e2b!important;
+}
+
+.form {
+    margin: auto;
+    width: 1440px;
+    height: 953px;
+    background-color: #1e1e1e;
+}
+
+.main-text {
+    width: 1030px;
+    height: 66px;
+    opacity: 0.8;
+    font-family: Catamaran;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align:center;
+    padding-top:2%;
+}
+
+.sub-text {
+    width: 524px;
+    height: 49px;
+    opacity: 0.6;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.inner-shadow-rectangle {
+    position:relative;
+    width: 828px;
+    height: 698px;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 16px 0 rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.divider {
+    position:relative;
+    top:2.5em;
+    width: 2px;
+    height: 587px;
+    border: solid 1px #ffffff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.submit-button {
+    width: 180px;
+    height: 60px;
+    object-fit: contain;
+    position:relative;
+    top:6.5em;
+}
+
+.I-3-EW {
+    width: 107.9px;
+    height: 137.6px;
+    object-fit: contain;
+    position: absolute;
+    top: -2.5em;
+    left: -3.5em;
+}
+
+.dragdrop-rectangle {
+    position:absolute;
+    top:2.5em;
+    left:5em;
+    width: 300px;
+    height: 518px;
+    border-radius: 10px;
+    border: dashed 2px #808080;
+}
+
+.upload-icon {
+    position:relative;
+    top:10em;
+    width: 91px;
+    height: 75px;
+    object-fit: contain;
+    background-color: transparent;
+}
+
+.upload-icon-highlight {
+    position:relative;
+    top:10em;
+    width: 100px;
+    height: 83px;
+    object-fit: contain;
+    background-color: transparent;
+}
+
+.upload-icon-dropped {
+    position:relative;
+    top:2em;
+    width: 156.5px;
+    height: 229.6px;
+    object-fit: contain;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+#pic_id {
+    position:absolute;
+    top:52%;
+    left:25%;
+    margin: 0 auto;
+    text-align: center;
+    height: 20px;
+    width:142px;
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.drag-drop-file {
+    position:relative;
+    margin:0 auto;
+    top:12em;
+    text-align: center;
+    width: 196px;
+    height: 82px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #bababa;
+}
+
+.text-style-1 {
+    font-weight: bold;
+    color: #ffffff;
+    border-bottom: 1px solid white;
+    cursor:pointer;
+}
+
+.text-drop-file {
+    position:relative;
+    margin:0 auto;
+    top:10em;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.input1 {
+    position:absolute;
+    bottom:4.5em;
+    left:5em;
+    height:42px!important;
+}
+
+.input1-text {
+    position:absolute;
+    left:1em;
+    top:0.6em;
+}
+
+.input2 {
+    position:absolute;
+    top:2em;
+    right:2.5em;
+}
+
+.input2-text {
+    position:absolute;
+    left:1em;
+    top:1.5em;
+}
+
+.name-placeholder {
+    text-align: left;
+    width: 21px;
+    height: 20px;
+    padding-left:0.6em;
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: white;
+}
+
+.input3 {
+    position:absolute;
+    top:6.25em;
+    right:2.5em;
+}
+
+.input3-text {
+    position:absolute;
+    left:1em;
+    top:1.5em;
+}
+
+.placeholder {
+    text-align: left;
+    width: 42px;
+    height: 20px;
+    padding-left:0.6em;
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.placeholder-invalid {
+    color: #d9452d;
+}
+
+.input4 {
+    position:absolute;
+    top:11em;
+    right:2.5em;
+}
+
+.input4-text {
+    position:absolute;
+    left:1em;
+    top:0.75em;
+}
+
+.input5 {
+    position:absolute;
+    top:15.25em;
+    right:2.5em;
+}
+
+.input5-text {
+    position:absolute;
+    left:1em;
+    top:0.75em;
+}
+
+.input6 {
+    position:absolute;
+    top:19em;
+    right:2.5em;
+}
+
+.input6-text {
+    position:absolute;
+    left:1em;
+    top:1.5em;
+}
+
+.input7 {
+    position:absolute;
+    top:23.75em;
+    right:2.5em;
+}
+
+.input7-text {
+    position:absolute;
+    left:1em;
+    top:0.75em;
+}
+
+.input8 {
+    position:absolute;
+    top:27.5em;
+    right:2.5em;
+}
+
+.arrow-down {
+    position:absolute;
+    right:2em;
+    top:1.75em;
+    width: 13px;
+    height: 7px;
+    object-fit: contain;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.flag-class {
+    position:absolute;
+    font-size:17px!important;
+    left:1em;
+    top:1.2em;
+}
+
+.input9 {
+    position:absolute;
+    top:32.25em;
+    right:2.5em;
+}
+
+.input9-text {
+    position:absolute;
+    left:1em;
+    top:0.75em;
+}
+
+.input10 {
+    position:absolute;
+    bottom:4.5em;
+    right:2.5em;
+}
+
+.input10-text {
+    position:absolute;
+    left:1em;
+    top:0.75em;
+}
+
+.legend-inputs {
+    background-color: transparent;
+    width: 300px;
+    height: 37px;
+    border-radius: 5px;
+    border: solid 1px gray;
+}
+
+.legend-inputs-invalid {
+    background-color: transparent;
+    width: 300px;
+    height: 37px;
+    border-radius: 5px;
+    border: solid 1px #d9452d;
+}
+
+.regular-inputs {
+    background-color: transparent;
+    width: 300px;
+    height: 28px;
+    border-radius: 5px;
+    border: solid 1px gray;
+}
+
+.regular-inputs-invalid {
+    background-color: transparent;
+    width: 300px;
+    height: 28px;
+    border-radius: 5px;
+    border: solid 1px #d9452d;
+}
+
+.input-text-shared {
+    background: transparent;
+    width: 80%;
+    height: 20px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffffff;
+    border: none;
+    outline:none;
+}
+
+.input-file {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.highlight {
+    border-radius: 10px;
+    border: dashed 2px #ffffff;
+}
+
+.small-legends{
+    font-family: Raleway;
+    position:relative;
+    color:#d9452d;
+    top:2.5em;
+    right:6em;
+    font-size:11px;
+}
+
+.small-regular{
+    font-family: Raleway;
+    position:relative;
+    color:#d9452d;
+    top:3.5em;
+    right:6em;
+    font-size:11px;
+}
+
+select#gender option[value="male"]   { background-image:url("http://localhost/wordpress/wp-content/themes/enterwellTask/assets/croatia-flag-icon.svg");   }
+select#gender option[value="female"] { background-image:url("http://localhost/wordpress/wp-content/themes/enterwellTask/assets/croatia-flag-icon.svg"); }
+select#gender option[value="others"] { background-image:url("http://localhost/wordpress/wp-content/themes/enterwellTask/assets/croatia-flag-icon.svg"); }
