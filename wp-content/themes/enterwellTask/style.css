@@ -488,10 +488,9 @@ select {
 }
 
 .hidden-success {
-    z-index:-1;
-    position:absolute;
-    left:30em;
-    top:10em;
+    left: 37%;
+    top: 30%;
+    position: relative;
 }
 
 .error-icon {
@@ -545,8 +544,7 @@ select {
 }
 
 .hidden-error {
-    position:absolute;
-    z-index:-1;
-    left:30em;
-    top:10em;
+    left: 37%;
+    top: 30%;
+    position: relative;
 }
