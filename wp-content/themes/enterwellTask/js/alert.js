@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
             let errorBtn = document.getElementById('error-img');
             errorBtn.onclick = function(){
                 errorAlert.style.zIndex = "-1";
+                window.location.search = "";
             }
         } else {
             sucessAlert.style.zIndex = "999";
@@ -23,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
             let successBtn = document.getElementById('success-img');
             successBtn.onclick = function(){
                 sucessAlert.style.zIndex = "-1";
+                window.location.search = "";
             }
         }
     }
