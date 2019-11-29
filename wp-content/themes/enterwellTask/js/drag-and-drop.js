@@ -24,6 +24,10 @@ document.addEventListener("DOMContentLoaded", function() {
 // Handle dropped files
     dropArea.addEventListener('drop', handleDrop, false)
 
+    fileElem.onchange = function() {
+        handleFiles(this.files);
+    }
+
     dropArea.ondrop = function(evt) {
         uploadIcon.classList.add('upload-icon-dropped')
         uploadIcon.classList.remove('upload-icon-highlight')
