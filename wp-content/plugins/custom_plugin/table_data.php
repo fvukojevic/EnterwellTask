@@ -42,7 +42,6 @@
                 $email = $result->email;
                 $bill_number = $result->bill_number;
                 $image = $result->image;
-
             ?>
             <tr>
                 <td><?php echo $id; ?></td>
@@ -56,7 +55,7 @@
                 <td><?php echo $contact; ?></td>
                 <td><?php echo $email; ?></td>
                 <td><?php echo $bill_number; ?></td>
-                <td><img src="<?php echo $img ?>" alt=""></td>
+                <td><?php echo "<img src='/wordpress/wp-content/uploads/" . $image . "' alt='' style='width:20%; height: 20%;'";?></td>
             </tr>
             <?php } ?>
         </tbody>
