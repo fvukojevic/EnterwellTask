@@ -6,6 +6,11 @@
 ?>
 
 <div class>
+
+    <?php if(empty($results)) {
+        echo "Nema trenutnih prijava i/ili niste administrator stranice";
+    } else{
+    ?>
     <table class="my-table" cellspacing="0">
         <thead>
             <tr>
@@ -57,4 +62,5 @@
         </tbody>
 
     </table>
+            <?php } ?>
 </div>
