@@ -33,7 +33,7 @@ print_r($_GET["pozdravee"]);
 
         <div class="inner-shadow-rectangle">
             <!-- svg -->
-            <img src="wp-content/themes/enterwellTask/assets/i<3ew.svg" class="I-3-EW">
+            <img src="wp-content/themes/enterwellTask/assets/i3.png" class="I-3-EW">
             <form id="form" enctype="multipart/form-data" method="POST"
                   action="<?php echo esc_url(admin_url('admin-post.php')); ?>">
                 <div id="drop-area" class="dragdrop-rectangle">
