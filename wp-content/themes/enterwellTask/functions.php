@@ -1,7 +1,7 @@
 <?php
 
 require(__DIR__. '/mapper/PrizeEntryMapper.php');
-require(__DIR__. '/model/Writer.php');
+require(__DIR__. '/../../plugins/custom_plugin/model/Writer.php');
 
 /**
  * @return void
