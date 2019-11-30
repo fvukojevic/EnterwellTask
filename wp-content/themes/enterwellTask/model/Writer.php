@@ -35,6 +35,17 @@ class Writer implements WriterInterface
     }
 
     /**
+     * @param array $img
+     * 
+     * @return void
+     */
+    public function storeImgToUploadsFolder(array $img)
+    {
+        $img_dir = __DIR__ . '/../../../uploads/' . $img['name'];
+        move_uploaded_file($img['tmp_name'], $img_dir);
+    }
+
+    /**
      * @param $email
      *
      * @return bool

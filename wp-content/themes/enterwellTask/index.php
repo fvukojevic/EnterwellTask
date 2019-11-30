@@ -44,7 +44,7 @@ print_r($_GET["pozdravee"]);
                     <p id="upload-icon-text" class="drag-drop-file">Povuci i ispusti datoteku
                         kako bi započeo prijenos
                         <br><br> ili
-                        <input type="file" id="fileElem" class="input-file" multiple accept="image/*">
+                        <input type="file" name="img" id="fileElem" class="input-file" multiple accept="image/*">
                         <label for="fileElem" class="text-style-1">Pretražite računalo</label>
                     </p>
                 </div>

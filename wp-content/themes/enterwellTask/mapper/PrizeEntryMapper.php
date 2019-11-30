@@ -22,7 +22,7 @@ class PrizeEntryMapper implements PrizeEntryMapperInterface
             'contact' => $post['contact'],
             'email' => $post['email'],
             'bill_number' => $post['bill_number'],
-            'image' => $post['image'],
+            'image' => $post['img']['name'],
         );
     }
 }

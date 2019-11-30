@@ -1,7 +1,7 @@
 <?php
 
 require(__DIR__. '/mapper/PrizeEntryMapper.php');
-require(__DIR__. '/../../plugins/custom_plugin/model/Writer.php');
+require(__DIR__. '/model/Writer.php');
 
 /**
  * @return void
@@ -24,11 +24,17 @@ function enterwellTask_script() {
  */
 function enterwell_form_submit()
 {
+    $post = $_POST;
+    $post['img'] = $_FILES['img'];
+
     $mapper = new PrizeEntryMapper;
-    $data_array = $mapper->mapUsersData($_POST);
+    $data_array = $mapper->mapUsersData($post);
 
     $writer = new Writer;
     $response = $writer->storePrizeEntry($data_array);
+    if($response = 'success') {
+        $writer->storeImgToUploadsFolder($post['img']);
+    }
 
     wp_redirect(home_url() . '?msg=' . $response);
 }
