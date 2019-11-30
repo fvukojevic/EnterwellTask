@@ -32,12 +32,17 @@ function DBP__admin_scripts() {
 }
 
 function DBP_add_menu_function() {
-    add_menu_page(
-        'prize_entry_page', //TITLE
-        'Prize Entry', //menu TITLEž
-        'manage_options', //cap
-        'prize_entries', //slug
-        'DBP_add_fron_Page', // func
-         DBP_url.'/assets/images/icon.png'//icon
-    );
+    $user = wp_get_current_user();
+    $roles = ( array ) $user->roles;
+
+    if(in_array('administrator', $roles)) {
+        add_menu_page(
+            'prize_entry_page', //TITLE
+            'Prize Entry', //menu TITLEž
+            'manage_options', //cap
+            'prize_entries', //slug
+            'DBP_add_fron_Page', // func
+             DBP_url.'/assets/images/icon.png'//icon
+        );
+    }
 }
