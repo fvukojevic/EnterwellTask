@@ -9,6 +9,18 @@ body {
     background-color: #2a2e2b!important;
 }
 
+@-webkit-keyframes autofill {
+    to {
+        color: white;
+        background: #1e1e1e;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+
 .form {
     margin: auto;
     width: 1440px;
