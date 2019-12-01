@@ -55,7 +55,7 @@
                 <td><?php echo $contact; ?></td>
                 <td><?php echo $email; ?></td>
                 <td><?php echo $bill_number; ?></td>
-                <td><?php echo "<img src='/wordpress/wp-content/uploads/" . $image . "' alt='' style='width:20%; height: 20%;'";?></td>
+                <td><?php echo "<img src='/wordpress/wp-content/uploads/" . $image . "' alt='' style='width:100%; height: 10%;'";?></td>
             </tr>
             <?php } ?>
         </tbody>
