@@ -49,7 +49,7 @@
                 <td><?php echo $lastname; ?></td>
                 <td><?php echo $address; ?></td>
                 <td><?php echo $place; ?></td>
-                <td><?php echo $house_nubmer; ?></td>
+                <td><?php echo $house_number; ?></td>
                 <td><?php echo $zip_code; ?></td>
                 <td><?php echo $nationality; ?></td>
                 <td><?php echo $contact; ?></td>
