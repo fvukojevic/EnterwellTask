@@ -24,8 +24,10 @@ Now if the Apache server is running as well as mysql, you are able to access the
 For admin panel it's localhost/{nameOfFolderYouStored}/wp-admin
 
 ***ADMIN CREDENTIALS***
-email:admin@gmail.com
-password:admin123
+
+***email*** :admin@gmail.com
+
+***password*** :admin123
 
 ## Author
 
