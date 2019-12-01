@@ -358,7 +358,7 @@ select {
 }
 
 .legend-inputs {
-    background-color: transparent;
+    background-color: #1e1e1e;
     width: 300px;
     height: 37px;
     border-radius: 5px;
@@ -366,7 +366,7 @@ select {
 }
 
 .legend-inputs-invalid {
-    background-color: transparent;
+    background-color: #1e1e1e;
     width: 300px;
     height: 37px;
     border-radius: 5px;
@@ -374,7 +374,7 @@ select {
 }
 
 .regular-inputs {
-    background-color: transparent;
+    background-color: #1e1e1e;
     width: 300px;
     height: 28px;
     border-radius: 5px;
@@ -382,7 +382,7 @@ select {
 }
 
 .regular-inputs-invalid {
-    background-color: transparent;
+    background-color: #1e1e1e;
     width: 300px;
     height: 28px;
     border-radius: 5px;
@@ -390,7 +390,7 @@ select {
 }
 
 .input-text-shared {
-    background: transparent;
+    background: #1e1e1e;
     width: 80%;
     height: 20px;
     font-family: Raleway;

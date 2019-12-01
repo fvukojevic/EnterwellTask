@@ -41,7 +41,7 @@ class Writer implements WriterInterface
      */
     public function storeImgToUploadsFolder(array $img)
     {
-        $img_dir = __DIR__ . '/../../../uploads/' . $img['name'];
+        $img_dir = __DIR__ . '/../../../uploads/' . $timestamp . $img['name'];
         move_uploaded_file($img['tmp_name'], $img_dir);
     }
 

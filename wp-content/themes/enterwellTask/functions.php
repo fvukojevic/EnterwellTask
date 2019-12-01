@@ -27,6 +27,10 @@ function enterwell_form_submit()
     $post = $_POST;
     $post['img'] = $_FILES['img'];
 
+    $date = new DateTime();
+    $timestamp = (string)$date->getTimestamp();
+    $post['img']['name'] = $timestamp . '_' . $post['img']['name'];
+
     $mapper = new PrizeEntryMapper;
     $data_array = $mapper->mapUsersData($post);
 
