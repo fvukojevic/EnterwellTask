@@ -17,7 +17,6 @@ class Reader implements ReaderInterface
         global $wpdb;
         
         if($this->checkIsUserRoleAdministrator()) {
-            $table_name = 'wp_prize_entry';
             return $wpdb->get_results("SELECT * FROM " . self::TABLE_NAME . " ORDER BY id_prize_entry DESC");
         }
     }
