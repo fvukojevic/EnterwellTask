@@ -37,7 +37,7 @@ function DBP_add_menu_function() {
             'manage_options', //cap
             'prize_entries', //slug
             'DBP_add_fron_Page', // func
-             DBP_url.'/assets/images/icon.png'//icon
+             'dashicons-awards'//icon
         );
     }
 }
