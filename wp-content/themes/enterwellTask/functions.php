@@ -14,9 +14,7 @@ function enterwellTask_resources() {
  * @return void
  */
 function enterwellTask_script() {
-    wp_enqueue_script( 'drag-and-drop', get_template_directory_uri() . '/js/drag-and-drop.js');
-    wp_enqueue_script( 'field-validation', get_template_directory_uri() . '/js/field-validation.js');
-    wp_enqueue_script( 'alert', get_template_directory_uri() . '/js/alert.js',  array('jquery'));
+    wp_enqueue_script( 'main', get_template_directory_uri() . '/dist/main.js');
 }
 
 /**
