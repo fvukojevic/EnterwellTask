@@ -23,6 +23,9 @@ I created one called `wordpress_enterwell` and simply press the import tab and c
 Now if the Apache server is running as well as mysql, you are able to access the app with localhost/{nameOfFolderYouStored}
 For admin panel it's localhost/{nameOfFolderYouStored}/wp-admin
 
+*Because Webpack is used, also inside the enterwellTask folder run the ***npm install*** command. It should generate the missing files (node modules, dist folder, etc.). These files are not pushed to git and should be automatically generated.*
+
+
 ***ADMIN CREDENTIALS***
 
 ***email*** :admin@gmail.com
