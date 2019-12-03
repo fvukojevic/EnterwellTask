@@ -30,11 +30,11 @@ For admin panel it's localhost/{nameOfFolderYouStored}/wp-admin
 
 ***email*** :admin@gmail.com
 
+***password*** :admin123
+
 ## Troubleshooting
 
 Common problem after cloning a project and using the dump.sql in phpmyadmin is that sometimes a frontend can look jumbled and styles are not used imported correctly. Most notable problem could probably be due to the .sql dump itself. Under table ***wp_options*** site url is ***http://localhost/EnterwellTask***. So you might want to consider changing that part to a different localhost port and/or different page (depending on what you named your folder in htdocs). If you simply cloned a repo, you should not get this error. But just something to keep in mind 
-
-***password*** :admin123
 
 ## Author
 
