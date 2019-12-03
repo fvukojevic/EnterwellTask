@@ -55,7 +55,7 @@
                 <td><?php echo $contact; ?></td>
                 <td><?php echo $email; ?></td>
                 <td><?php echo $bill_number; ?></td>
-                <td><?php echo "<img src='/wordpress/wp-content/uploads/" . $image . "' alt='' style='width:50%; height: auto%;'";?></td>
+                <td><?php echo "<img src='/enterwellTask/wp-content/uploads/" . $image . "' alt='' style='width:50%; height: auto%;'";?></td>
             </tr>
             <?php } ?>
         </tbody>
