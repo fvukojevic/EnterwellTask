@@ -19,8 +19,8 @@ class Functions
     {
         add_action('wp_enqueue_scripts', array($this, 'enqueue_styles'));
         add_action('wp_enqueue_scripts', array($this, 'enqueue_scripts'));
-        add_action('admin_post_nopriv_enterwell_application_form', 'enterwell_form_submit' );
-        add_action('admin_post_enterwell_application_form', 'enterwell_form_submit' );
+        add_action('admin_post_nopriv_enterwell_application_form', array($this,'enterwell_form_submit' ));
+        add_action('admin_post_enterwell_application_form', array($this,'enterwell_form_submit' ));
     }
 
     public function enqueue_styles()
